@@ -1,0 +1,124 @@
+html {
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	background-color: white;
+	background-image: url(img/forest.png);
+ 	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: 90vw;
+	height: 100vh;
+	animation: diaNoche 5s;
+	animation-iteration-count: infinite;
+}
+
+.moon {
+	display: none;
+
+}
+
+.sun {
+	position: absolute;
+	right: 48px;
+	top: 24px;
+	animation: diaNoche 5s;
+	animation-iteration-count: infinite;
+}
+
+.lookingLeft {
+	transform: scaleX(-1);
+}
+
+.cloud1 {
+	position: absolute;
+	left: 15vw;
+	top: 5vw;
+}
+
+.cloud2 {
+	position: absolute;
+	left: 30vw;
+	top: 10vw;
+}
+
+.cloud3 {
+	position: absolute;
+	left: 45vw;
+	top: 5vw;
+}
+
+.cloud4 {
+	position: absolute;
+	left: 60vw;
+	top: 10vw;
+}
+
+.plants {
+	position: absolute;
+	background-blend-mode: multiply;
+	left: 18vw;
+	right: 18vw;
+	bottom: 0px;
+	animation: diaNoche 5s;
+	animation-iteration-count: infinite;
+}
+
+.everyPlant {
+	background-blend-mode: multiply;
+}
+
+@keyframes diaNoche {
+	0% {
+		background-color: white;
+		bottom: 0px;
+		right: 48px;
+	
+
+	}
+	20% {
+		background-color: #bf4080;	
+		bottom: -50px;
+		right: 192px;
+
+
+
+	}
+	40% {
+		background-color: #333333; 
+		bottom: -75px;
+		right: 384px;
+
+	}
+	60% {
+		background-color: #000033;
+		bottom: -150px;
+		right: -100px;
+	}
+
+	80% {
+		background-color: #b35900;
+		bottom: -30px;
+		right: -25px;
+	}
+	100% {
+		background-color: white;
+		bottom: 0px;
+		right: 58px;
+	}
+}
+
+.greenGrass { 
+	position: fixed;
+	left: 12.5vw;
+	right: 12.5vw;
+	bottom: 0px;
+	border: 3px solid #2DD261;
+	background-color: #2DD261;
+	border-radius: 5%;
+	width: 75vw;
+	height: 15px;
+}
+
+
