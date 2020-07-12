@@ -16,7 +16,7 @@ body {
 
 .moon {
 	position: absolute;
-	left: 3vw;
+	left: 35vw;
 	top: 5vh;
 	opacity: 0;
 	animation: movimientoSatelite 10s;
