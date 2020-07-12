@@ -136,8 +136,8 @@ body {
 		opacity: 1;	
 	}
 	80% {
-		left: 1vw;
-		opacity: 0.8;	
+		left: -5vw;
+		opacity: 0.2;	
 	}
 	100% {
 		opacity: 0;	
